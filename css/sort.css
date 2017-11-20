@@ -1,0 +1,183 @@
+/*
+* @Author: Marte
+* @Date:   2017-11-20 14:48:23
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-20 19:48:09
+*/
+
+/* 顶部搜索框 */
+.search {
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    background-size: 1px 44px;
+    background: url("../images/header-bg.png");
+    border-bottom: 1px solid #ccc;
+    z-index: 10;
+}
+
+/* 输入框 */
+.search .search_box {
+    height: 30px;
+    margin: 7px 50px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+/* 返回按钮 */
+
+.search a {
+    display: block;
+    width: 18px;
+    height: 20px;
+    background-image: url("../images/jd-sprites.png");
+    background-size: 200px 200px;
+    background-clip: content-box;
+    padding: 12px 11px;
+    position: absolute;
+    top: 0px;
+}
+.search .back {
+    left: 0;
+    background-position: -12px 12px;
+}
+
+.search .order {
+    background-position: -50px 11px;
+    right: 0;
+}
+/* 内容容器 */
+.container {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+
+/* 导航栏 */
+.nav {
+    width: 90px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav ul {
+    /* border-top: 1px solid #E0E0E0; */
+    border-left: 1px solid #E0E0E0;
+    width: 100%;
+    height: 100;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.nav li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #F3F4F6;
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    font-size: 13px;
+    color: #252525;
+    box-sizing: border-box;
+}
+.nav li.active {
+    background-color: #fff;
+    border: none;
+}
+
+/* 内容 */
+.content {
+    width: 100%;
+
+    flex: 1;
+    padding: 0 15px 0 15px;
+    overflow-y: auto;
+
+}
+
+.content div {
+    width: 100%;
+}
+/* 热门推荐 */
+.hot {
+    width: 100%;
+}
+h4 {
+    color: #888;
+    padding: 20px 0 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.hot ul {
+    width: 100%;
+    border-top: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    overflow: hidden;
+}
+
+.hot li {
+    width: 33.333333%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    box-sizing: border-box;
+}
+
+.hot li a {
+    color: #252525;
+}
+
+/* 热门导购 */
+.guide {
+    width: 100%;
+}
+.content ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+li {
+    width: 33.333333%;
+    text-align: center;
+    float: left;
+}
+li a {
+    width: 100%;
+}
+
+li img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+li span {
+    display: block;
+    padding: 8px 0;
+}
+
+
+
+
+
+
